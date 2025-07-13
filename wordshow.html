@@ -10,8 +10,8 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Arial', sans-serif;
-            background-color: #f9f9f9; /* 浅灰色背景 */
+            font-family: 'SimHei', '黑体', sans-serif; /* 使用黑体字体 */
+            background-color: #f5f5dc; /* 米黄色背景 */
             color: #333; /* 深色文字 */
             text-align: center;
         }
@@ -26,13 +26,14 @@
         .title {
             font-size: 36px;
             margin-bottom: 20px;
-            color: #333; /* 深色标题 */
+            color: #8b0000; /* 暗红色标题 */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .image-container {
             margin: 20px 0;
             background-color: #fff;
-            border: 2px solid #e0e0e0;
+            border: 2px solid #8b0000; /* 暗红色边框 */
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
@@ -45,7 +46,7 @@
         .image-container img {
             width: 100%;
             height: auto;
-            border: 2px solid #e0e0e0;
+            border: 2px solid #8b0000; /* 暗红色边框 */
             border-radius: 8px;
         }
 
@@ -57,7 +58,7 @@
 
         /* 页脚 */
         .footer {
-            background-color: #333;
+            background-color: #8b0000; /* 暗红色背景 */
             padding: 10px 20px;
             text-align: center;
             margin-top: 40px;
@@ -69,42 +70,17 @@
             font-size: 14px;
         }
 
-        /* 清新自然的颜色方案 */
-        :root {
-            --primary-color: #4CAF50; /* 清新的绿色 */
-            --secondary-color: #FFC107; /* 明亮的黄色 */
-            --text-color: #333; /* 深色文字 */
-            --background-color: #f9f9f9; /* 浅灰色背景 */
+        /* 中式复古的装饰元素 */
+        .decorative-line {
+            height: 2px;
+            background-color: #8b0000;
+            margin: 20px 0;
         }
 
-        body {
-            background-color: var(--background-color);
-            color: var(--text-color);
-        }
-
-        .title {
-            color: var(--primary-color);
-        }
-
-        .image-container {
-            border-color: var(--secondary-color);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .image-container img {
-            border-color: var(--secondary-color);
-        }
-
-        .description {
-            color: var(--text-color);
-        }
-
-        .footer {
-            background-color: var(--primary-color);
-        }
-
-        .footer p {
-            color: var(--background-color);
+        .decorative-symbol {
+            font-size: 24px;
+            color: #8b0000;
+            margin: 20px 0;
         }
     </style>
 </head>
